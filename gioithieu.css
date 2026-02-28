@@ -1,0 +1,1379 @@
+.top-bar {
+    background: #d80000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin: 0px;
+
+    position: sticky;   /* Quan trọng */
+    top: 0;             /* Dính sát đỉnh */
+    z-index: 1000;  
+}
+
+.logo {
+    color: #ffd700;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu a {
+    color: #ffd700;
+    text-decoration: none;
+    margin-left: 46px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bangtrang {
+    background: white;
+    width: 68%;
+    margin: 40px auto;   
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.bangtrang img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.page-background {
+    background-image: url("https://xdcs.cdnchinhphu.vn/446259493575335936/2025/4/28/23-00-27-26-04-2025-tp20soc-trang20viet20nam-1745828093016-17458280933112007224937.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 350px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.page-background1 {
+    background-image: url("https://cdn.sforum.vn/sforum/wp-content/uploads/2022/12/hinh-nen-may-tinh-tet-18.jpg");
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 350px;
+    padding-bottom: 60px;
+}
+
+.page-background2 {
+    background-color: #fdf6f6;
+}
+
+.page-background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.page-background > * {
+    position: relative;
+}
+
+.page-background6 {
+    background-image: url("https://noithatbinhminh.com.vn/wp-content/uploads/2022/08/background-tet-2023-16.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 350px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.vungkhung{
+    scroll-margin-top: 100px;
+}
+
+.hopkhungrieng {
+    background: #fff8f2;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    color: #b30000;
+    font-size: 42px;
+    margin-bottom: 8px;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+    color: #ffd700; /* vàng kim */
+
+    text-shadow:
+        3px 3px 0 #b22222,
+        0 0 15px rgba(255, 215, 0, 0.8),
+        0 0 25px rgba(255, 215, 0, 0.6);
+
+    margin-top: 30px;
+}
+
+.header p {
+    color: #080606;
+    font-size: 18px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.content-box {
+    background: rgb(255, 255, 255);
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.content-box1 {
+    background: rgba(250, 250, 250, 0.89);
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.content-box h2 {
+    font-size: 30px;
+    color: #b30000;
+    margin-bottom: 17px;
+    border-left: 6px solid #f0b400;
+    padding-left: 10px;
+    background-color: #f9f6c7;
+    border-bottom: #b30000;
+}
+
+.content-box h5 {
+    color: #fc2828;
+    font-size: 24px; 
+    margin-bottom: 5px;
+    background-color: #f7f784;
+    font-style:inherit;
+    border-left: 6px solid #f00000;
+    padding-left: 10px;
+
+}
+
+.space-before-image1 {
+    height: 20px;
+}
+
+.TrangChu p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.highlight {
+    background: rgb(255, 255, 255);
+}
+.highlight1 {
+    background: rgba(249, 5, 5, 0.95);
+}
+.intro-image {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.intro-image img {
+    width: 50%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.image-gallery-wrapper {
+    background: #f5edde;        
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery {
+    background: rgb(253, 242, 242);
+    width: 700px;
+    max-width: 90%;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+    .image-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .image-gallery img {
+        height: 500px;
+    }
+}
+
+.space-before-image {
+    height: 50px;
+}
+/*DÙng cho các kết bài */
+
+.ket-bai {
+  background-color: #ffffff;
+  border-left: 6px solid #c62828; 
+  padding: 20px 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.ket-bai p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  font-style: italic;
+  color: #333;
+}
+
+.ket-bai h4 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #ff0101;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.conclusion-box {
+    background: #ffffff;
+    border-left: 6px solid #f4b400; 
+    padding: 20px 28px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.conclusion-box p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #444;
+    font-style: italic;
+}
+
+.container{
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+.AnhSapXep {
+    position: relative;   
+    min-height: 650px;
+    background-image: url("https://img3.thuthuatphanmem.vn/uploads/2019/09/17/background-cho-ngay-tet_105954962.jpg"); /* nền giống ảnh */
+    margin: 30px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    border-radius: 18px;
+    max-width: 1000px;
+}
+/*https://img3.thuthuatphanmem.vn/uploads/2019/09/17/background-website-tet_105958087.jpg */
+.AnhSapXep1 {
+    position: relative;   
+    min-height: 550px;
+    background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-vietnamese-new-year-lantern-watermelon-border-background-picture-image_1295766.jpg");
+    margin: 30px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    position: relative;
+    border-radius: 18px;
+    max-width: 900px;
+}
+
+.AnhSapXep g {
+    font-size: 15px;
+    padding-left: 470px;
+    padding-bottom: 40px;
+}
+
+.text-box {
+    width: 400px;
+    background-color: #f1ee5b;
+    padding: 25px; 
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    
+    position: absolute;
+    right: 120px;
+    top: 140px;
+}
+
+.tieu-de {
+    position: absolute;
+    top: 80px;
+    right: 380px;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffd700;
+
+    text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.4),
+        0 0 10px rgba(255,215,0,0.7);
+
+    letter-spacing: 2px;
+}
+
+.tieu-de1 {
+    position: absolute;
+    top: 66px;
+    right: 360px;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffd700;
+
+    text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.4),
+        0 0 10px rgba(255,215,0,0.7);
+
+    letter-spacing: 2px;
+}
+
+.text-box p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+/*
+.video-nen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+*/
+
+.TrangChu {
+    background-image: url("https://media.techz.vn/media2019/upload2019/2024/02/06/1_06022024175639.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* https://media.techz.vn/media2019/upload2019/2024/02/06/1_06022024175639.jpg */
+
+.TrangChu5 {
+    background-image: url("https://cdn.sforum.vn/sforum/wp-content/uploads/2022/12/hinh-nen-may-tinh-tet-8.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.TrangChu6 {
+    background-image: url("https://cdn.thuvienphapluat.vn/uploads/DanLuat-BanAn/2025/2/5Background-Tet-2026.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.TrangChu1 {
+    background-image: url("https://tiki.vn/blog/wp-content/uploads/2023/02/phong-tuc-ngay-tet-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.TrangChu2 {
+    background-image: url("https://vill.vn/wp-content/uploads/2024/01/Web-am-thuc-ngay-tet-viet-nam.png");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.TrangChu3 {
+    background-image: url("https://tiki.vn/blog/wp-content/uploads/2023/02/phong-tuc-ngay-tet-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    object-fit: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.TrangChu::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25); 
+}
+
+.TrangChu-Cho {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+    color: #ffd700; 
+
+    text-shadow:
+        3px 3px 0 #b22222,
+        0 0 15px rgba(255, 215, 0, 0.8),
+        0 0 25px rgba(255, 215, 0, 0.6);
+
+    margin-top: 120px;
+}
+
+.TrangChu h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #f5c542;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section b {
+    font-size: 17;
+}
+
+.section h2 {
+    color: #b30000;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-left: 6px solid #f5c542;
+    padding-left: 15px;
+    background-color: #f7f48d;
+}
+
+.section h1 {
+    color: #b30000;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.section p {
+    max-width: 800px;
+    font-size: 17px;
+}
+
+.section g {
+    max-width: 1100px;
+    font-size: 15px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature-box {
+    background: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box h3 {
+    color: #d4a017;
+    margin-bottom: 10px;
+}
+
+.feature-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.feature-box img{
+    max-width: 100%;
+    height: 180px;         
+    object-fit: cover;      
+    border-radius: 12px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+footer {
+    background: #2f8f57;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+.page-background {
+    background-image: url("https://xdcs.cdnchinhphu.vn/446259493575335936/2025/4/28/23-00-27-26-04-2025-tp20soc-trang20viet20nam-1745828093016-17458280933112007224937.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 445px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.page-background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.page-background * {
+    position: relative;
+}
+
+.food-box {
+    display: flex;
+    gap: 20px;
+    background: #fffdf6;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    align-items: center;
+}
+
+.food-box img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.food-box h3 {
+    color: #b30000;
+    margin-bottom: 8px;
+}
+
+.food-box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+    .food-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .food-box img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.food-detail {
+    max-width: 1500px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.food-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-style: oblique;
+}
+
+.tieudemoi {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b71c1c;
+    margin: 40px 0 20px;
+    font-style: italic;
+    background-color: #f7f48d;
+}
+
+
+.food-text {
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #333;
+}
+
+.space-before-image {
+    height: 50px;
+}
+
+.food-image {
+    text-align: center;
+}
+
+.food-image img {
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.food-image1 {
+    text-align: center;
+}
+
+.food-image1 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.food-image figcaption {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+.image-gallery figcaption {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+.extra-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.extra-images img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tag-title {
+    background: rgba(245, 197, 66, 0.15);
+    padding: 10px 16px;
+    border-left: 5px solid #b30000;
+    font-weight: 700;
+    color: #222;
+    border-radius: 6px;
+}
+
+.image-gallery-wrapper {
+    text-align: center;
+    background: #fcf6ea;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery {
+    text-align: center;
+    background: rgb(255, 243, 243);
+    width: 700px;
+    max-width: 90%;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.image-gallery p{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    padding-left: 70%;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 600px) {
+    .image-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .image-gallery img {
+        height: 220px;
+    }
+}
+
+.temple-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 16px 0 10px;
+    color: #000;
+}
+
+.content-box p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.highlight {
+    background: rgba(255, 248, 220, 0.95);
+}
+.intro-image {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.intro-image img {
+    width: 50%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.media-box {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #e5dfd5;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.media-box video {
+    width: 100%;
+    border-radius: 20px;
+    max-height: 300px;
+}
+
+.img-big1{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #ff0000;
+}
+
+.img-big1 img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-small1-1{
+    position: absolute;
+    height: 180px;
+    top: 350px;
+    left: 130px;
+    width: 190px;
+    border: 6px solid #ff0000;
+    background: white;
+}
+
+.img-small1-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+     object-position: center;
+}
+
+.img-small1-2{
+    height: 190px;
+    position: absolute;
+    top: 280px;
+    left: 270px;
+    width: 180px;
+    border: 6px solid #ff0000;
+    background: white;
+    z-index: 2;
+}
+
+.img-small1-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-box1 {
+    width: 400px;
+    background-color: #f1ee5b;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+    
+    position: absolute;
+    right: 90px;
+    top: 70px;
+}
+
+
+.tieu-de1 {
+    position: absolute;
+    top: 26px;
+    right: 270px;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffd700;
+
+    text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.4),
+        0 0 10px rgba(255,215,0,0.7);
+
+    letter-spacing: 2px;
+}
+
+.text-box2 p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+    font-style: oblique;
+}
+
+.lienhe {
+    background: #b71c1c;   /* đỏ Tết */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.lienhe h2 {
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+.lienhe-info {
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+.btn-lienhe {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 30px;
+    background: #fbc02d;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn-lienhephansau {
+    background: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f5f5f5, #eaeaea);
+    margin: 0;
+}
+
+.hopchua {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hopchuanutquaylai{
+    position: fixed;         
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+
+    padding: 12px 22px;
+    border-radius: 30px;
+
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+
+    color: #b30000;        
+    background: linear-gradient(145deg, #ffd700, #ffb700);
+    
+    box-shadow: 
+        0 4px 15px rgba(0,0,0,0.3),
+        inset 0 2px 5px rgba(255,255,255,0.6);
+
+    transition: all 0.3s ease;
+}
+
+.hopchuanutquaylai:hover{
+    transform: translateY(-3px) scale(1.05);
+    background: linear-gradient(145deg, #ffec8b, #ffc400);
+    box-shadow: 
+        0 8px 20px rgba(0,0,0,0.4),
+        inset 0 2px 8px rgba(255,255,255,0.8);
+}
+
+.hopchuanutquaylai::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        rgba(255,255,255,0.2) 0%,
+        rgba(255,255,255,0.8) 50%,
+        rgba(255,255,255,0.2) 100%
+    );
+    transform: skewX(-20deg);
+}
+
+.hopchuanutquaylai:hover::after {
+    animation: shine 0.8s forwards;
+}
+
+@keyframes shine {
+    100% {
+        left: 130%;
+    }
+}
+
+.phantren {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.thegopy {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+.thegopy h2 {
+    color: #c62828;
+    margin-bottom: 20px;
+}
+
+.thegopy input, .thegopy textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.thegopy button {
+    background: #c62828;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.thegopy button:hover {
+    background: #a61c1c;
+}
+
+/* MAP */
+.phanbando {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.phanbando h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.phanbando p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.thongtin {
+    margin-bottom: 18px;
+}
+
+.thongtin label {
+    font-size: 15px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.hopthongtin {
+    font-size: 15px;
+    background: #f5f5f5;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.nutquaylai {
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 10px 18px;
+    background: #c62828;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nutquaylainen {
+    background: #a61c1c;
+}
+
+.text-box2{
+    width: 430px;
+    background: rgba(255, 240, 150, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+    
+    position: absolute;
+    right: 90px;
+    top: 86px;
+}
+
+.tieu-de2 {
+    position: absolute;
+    top: 30px;
+    right: 270px;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffd700;
+
+    text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.4),
+        0 0 10px rgba(255,215,0,0.7);
+
+    letter-spacing: 2px;
+}
+
+.AnhSapXep2 {
+    position: relative;   
+    min-height: 650px;
+    background-image: url("https://png.pngtree.com/background/20210715/original/pngtree-vietnamese-new-year-lantern-watermelon-border-background-picture-image_1295766.jpg"); /* nền giống ảnh */
+    margin: 30px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    position: relative;
+    border-radius: 18px;
+    max-width: 1000px;
+}
+
+.text-box1 p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.text-box3 {
+    width: 430px;
+    background: rgba(255, 240, 150, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+    
+    position: absolute;
+    right: 90px;
+    top: 110px;
+}
+
+.text-box3 p{
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.8;
+}
+
+
+.tieu-de3 {
+    position: absolute;
+    top: 52px;
+    right: 270px;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffd700;
+
+    text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.4),
+        0 0 10px rgba(255,215,0,0.7);
+
+    letter-spacing: 2px;
+}
+
+.img-big4{
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #ff0000;
+}
+
+.img-big4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-small1-5{
+    position: absolute;
+    height: 180px;
+    top: 350px;
+    left: 130px;
+    width: 190px;
+    border: 6px solid #ff0000;
+    background: white;
+}
+
+.img-small1-5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.text-box6 {
+    width: 430px;
+    background: rgba(255, 240, 150, 0.75);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);  
+    
+    position: absolute;
+    right: 90px;
+    top: 70px;
+}
+
+.text-box6 p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+    font-style: italic;
+}
+
+
+.tieu-de6 {
+    position: absolute;
+    top: 26px;
+    right: 270px;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ffd700;
+
+    text-shadow: 
+        2px 2px 6px rgba(0,0,0,0.4),
+        0 0 10px rgba(255,215,0,0.7);
+
+    letter-spacing: 2px;
+}
+
+.PhanChua-Gioithieu {
+    background: linear-gradient(135deg, #fffaf0, #f8f4e1);
+    padding: 50px 30px;
+    border-radius: 20px;
+    width: 72%;
+    margin: 40px auto;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.PhanChua-Gioithieu:hover {
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
+
+.PhanChua-Tuade {
+    font-size: 32px;
+    font-weight: bold;
+    color: #b22222;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.PhanChua-Tuade::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 80%;
+    width: 6px;
+    background: linear-gradient(to bottom, #ffcc00, #ff9900);
+    border-radius: 10px;
+}
+
+
+.HopChuaChu {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.8;
+    font-size: 15px;
+    color: #444;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    backdrop-filter: blur(5px);
+}
+
+.img-small1-4{
+    height: 190px;
+    position: absolute;
+    top: 280px;
+    left: 270px;
+    width: 180px;
+    border: 6px solid #ff0000;
+    background: white;
+}
+
+.img-small1-4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
